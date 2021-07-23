@@ -1,0 +1,9 @@
+package com.examplehttps.start.spring.io.demo;
+
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface PostRepository {
+        //find...
+        //insert...
+}
