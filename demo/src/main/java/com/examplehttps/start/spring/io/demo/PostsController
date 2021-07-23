@@ -25,4 +25,5 @@ public class PostsController {
     public List<Post> readPosts(){
         return postService.getPosts();
     }
+
 }
