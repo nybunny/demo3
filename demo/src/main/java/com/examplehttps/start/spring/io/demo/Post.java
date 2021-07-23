@@ -1,5 +1,6 @@
 package com.examplehttps.start.spring.io.demo;
 
+import javax.persistence.Id;
 import java.time.Instant;
 import java.util.Date;
 
@@ -19,6 +20,7 @@ public class Post {
 
     private Instant created;
 
+    @Id
     private int id;
 
     public int getId() {
