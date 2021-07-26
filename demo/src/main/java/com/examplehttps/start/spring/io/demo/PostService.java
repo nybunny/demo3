@@ -16,12 +16,13 @@ public class PostService {
 
     public List<Post> getPosts()
     {
-        return null;
+        return postRepository.findAll();
 //        return posts;
     }
 
     public void addPost(Post post)
     {
-//        posts.add(post);
+        postRepository.save(post);
+        //        posts.add(post);
     }
 }

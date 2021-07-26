@@ -1,9 +1,11 @@
 package com.examplehttps.start.spring.io.demo;
 
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import java.time.Instant;
 import java.util.Date;
 
+@Entity
 public class Post {
 
     private String content;
